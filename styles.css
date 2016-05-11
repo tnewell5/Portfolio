@@ -106,3 +106,21 @@ width: 100%;*/
   width: 53px;
   opacity: 0.7;
 }
+
+.main {
+  height: 700px;
+  /*padding-top: 150px;*/
+}
+
+.my-pic {
+  height: 200px;
+  border-radius: 50%;
+}
+
+h4 {
+  padding-top: 100px;
+}
+
+.responsive-img {
+  box-shadow: 5px 5px 5px #888888;
+}
