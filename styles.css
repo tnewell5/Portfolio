@@ -124,3 +124,30 @@ h4 {
 .responsive-img {
   box-shadow: 5px 5px 5px #888888;
 }
+
+h1 {
+  padding-top: 100px;
+}
+
+h5 {
+  padding-top: 100px;
+}
+
+.home-page {
+  height: 700px;
+  background-image: url("./images/watercolor-background.jpg");
+  background-size: cover;
+  /*opacity: 0.5;*/
+  margin: 0;
+  padding: 0;
+}
+
+.white-font {
+  color: white;
+}
+
+.skills-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
