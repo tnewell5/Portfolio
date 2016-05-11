@@ -151,3 +151,20 @@ h5 {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.purple-font {
+  color: #8053c2;
+  text-shadow: 1px 1px 1px #888888;
+}
+
+.teal-font {
+  color: teal;
+}
+
+.padding-skills {
+  padding-bottom: 50px;
+}
+
+/*.nav-bar {
+  position: fixed;
+}*/
