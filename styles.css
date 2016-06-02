@@ -3,9 +3,11 @@ body {
   text-align: center;
 }
 
-/*.brand-logo {
-  text-align: left;
-}*/
+.brand-logo {
+  /*text-align: left;*/
+  left: 5%;
+  font-family: optima;
+}
 
 .nav-wrapper {
   background: #8053c2;
@@ -114,7 +116,8 @@ width: 100%;*/
 
 .my-pic {
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
+  margin-top: 10%;
 }
 
 h4 {
@@ -165,6 +168,23 @@ h5 {
   padding-bottom: 50px;
 }
 
-/*.nav-bar {
-  position: fixed;
-}*/
+.color-change:hover {
+  color: #8053c2;
+}
+
+.btn {
+  text-transform: none !important;
+  cursor: default !important;
+  background-color: #8053c2 !important;
+  opacity: 0.8 !important;
+}
+
+.skills-header {
+  font-size: 20px;
+  padding-bottom: 2%;
+  color: teal;
+}
+
+.cursor-stay {
+  cursor: default;
+}

@@ -13,33 +13,37 @@
   <body>
 
   <div class='home-page'>
-    <nav class='nav-bar'>
-      <div class="nav-wrapper">
-        <!-- <a href="#" class="brand-logo left">Tanya Newell</a> -->
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav class='nav-bar'>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Tanya Newell</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-    <h1 class='white-font'>Tanya Newell</h1>
-    <br/>
-    <h5 class='white-font'>Full stack web developer</h5>
-    <h6 class='white-font'>~ Bringing ideas to life through code ~</h6>
+    <h1 class='white-font'>Full stack web developer</h1>
+
+    <!-- <h5 class='white-font'>Full stack web developer</h5> -->
+    <h4 class='white-font'>~ Bringing ideas to life through code ~</h4>
     <br/>
     <!-- <a href="#!" class="btn waves-effect waves-orange">Find out more!</a> -->
   </div>
 
     <div class='main'>
-      <h4 id='portfolio' class='teal-font'>Portfolio</h4>
+      <h4 id='portfolio' class='teal-font'>
+        <!-- <span class='color-change'>My Creations</span> -->
+      </h4>
       <div class='port-flex-container'>
         <div class='project-wrapper'>
           <a class='port-link' class='hover' href='https://brunch-of-places-frontend.herokuapp.com' target="blank">
             <img class="responsive-img" src="./images/brunch-of-places.jpg">
           </a>
-          <p class='text'>NYC-based brunch location app created using React.js, Node.js, MongoDB, HTML, and CSS</p>
+            <p class='text'>NYC-based brunch location app created using React.js, Node.js, MongoDB, HTML, and CSS</p>
         </div>
         <div class='project-wrapper'>
           <a class='port-link' href='https://climb-on-frontend.herokuapp.com' target="blank">
@@ -51,29 +55,46 @@
     </div>
 
     <div class='main'>
-      <h4 id='skills' class='teal-font padding-skills'>Skills</h4>
+      <h4 id='skills' class='teal-font padding-skills'>
+        <!-- <span class='color-change'>My Skills</span> -->
+      </h4>
       <div class='skills-flex-container'>
         <div class='top'>
-          <img class='skills-logo' src="./images/html5.png">
-          <img class='skills-logo-css' src="./images/css3.png">
-          <img class='skills-logo-js' src="./images/js.png">
-          <img class='skills-logo' src="./images/nodejs.png">
-          <img class='skills-logo-react' src="./images/reactjs.png">
+            <h6 class='skills-header cursor-stay'>Frontend</h6>
+          <a href="#!" class="btn waves-effect waves-teal z-depth-3">HTML5</a>
+          <a href="#!" class="btn waves-effect waves-red z-depth-3">CSS3</a>
+          <a href="#!" class="btn waves-effect waves-yellow z-depth-3">JavaScript</a>
+          <a href="#!" class="btn waves-effect waves-orange z-depth-3">ReactJS</a>
+          <!-- <img class='skills-logo' src="./images/html5.png"> -->
+          <!-- <img class='skills-logo-css' src="./images/css3.png">
+          <img class='skills-logo-js' src="./images/js.png"> -->
+          <!-- <img class='skills-logo' src="./images/nodejs.png"> -->
+          <!-- <img class='skills-logo-react' src="./images/reactjs.png"> -->
+          <br><br><br>
+          <h6 class='skills-header cursor-stay'>Backend</h6>
+          <a href="#!" class="btn waves-effect waves-teal z-depth-3">NodeJS</a>
+          <a href="#!" class="btn waves-effect waves-teal z-depth-3">Ruby</a>
+          <a href="#!" class="btn waves-effect waves-teal z-depth-3">Rails</a>
+          <a href="#!" class="btn waves-effect waves-teal z-depth-3">MongoDB</a>
+          <a href="#!" class="btn waves-effect waves-teal z-depth-3">PostgreSQL</a>
+
         </div>
-        <div class="bottom">
+        <!-- <div class="bottom">
           <img class='skills-logo' src="./images/rails.png">
           <img class='skills-logo-db' src="./images/mongodb.png">
           <img class='skills-logo-db' src="./images/postgresql.png">
           <img class='skills-logo-cat' src="./images/github.png">
           <img class='skills-logo-heroku' src="./images/heroku.png">
-        </div>
+        </div> -->
       </div>
     </div>
 
     <div class="main">
-      <h5 id='contact' class='teal-font'>Want to connect? I'd love to hear from you!</h5>
-      <div class='contact-flex-container'>
+      <div id='contact' class='contact-flex-container'>
         <img class='my-pic' src='./images/my-pic.jpg'>
+        <h5 class='teal-font'>
+          <span class='color-change'>Want to connect? I'd love to hear from you!</span>
+        </h5>
         <br/>
 
         <a href='https://github.com/tnewell5' target="blank">
