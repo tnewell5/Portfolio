@@ -11,19 +11,12 @@ body {
 
 .nav-wrapper {
   background: #8053c2;
-  /*background: #b388ff;*/
-  /*background: #8c9eff;*/
 }
 
 .port-flex-container {
   display: flex;
   flex-direction: row;
-
-}
-
-.port-link {
-  /*width: 50%;
-  padding: 20px;*/
+  height: 80%;
 }
 
 .project-wrapper {
@@ -48,7 +41,7 @@ padding: 5px;
 width: 100%;*/
 }
 
-.skills-logo {
+/*.skills-logo {
   width: 70px;
   height: 70px;
 }
@@ -62,9 +55,9 @@ width: 100%;*/
   width: 55px;
   height: 80px;
   padding-top: 10px;
-}
+}*/
 
-.skills-logo-react {
+/*.skills-logo-react {
   width: 50px;
   height: 70px;
 }
@@ -78,13 +71,13 @@ width: 100%;*/
 .skills-logo-cat {
   width: 70px;
   height: 80px;
-}
-
+}*/
+/*
 .skills-logo-heroku {
   width: 85px;
   height: 110px;
   padding-top: 15px;
-}
+}*/
 
 .contact-icon {
   width: 50px;
@@ -123,6 +116,10 @@ width: 100%;*/
 
 h4 {
   padding-top: 100px;
+}
+
+h4#portfolio {
+  padding-top: 50px;
 }
 
 .responsive-img {
@@ -200,4 +197,14 @@ h5 {
 
 #contact {
   margin-top: 15%;
+}
+
+.scroll-icon {
+  font-size: 80px !important;
+  color: white;
+}
+
+.teal-color {
+  font-size: 80px !important;
+  color: teal;
 }

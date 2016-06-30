@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
-
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <script src="https://use.fontawesome.com/770dc1ec62.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
     <title>Tanya Newell</title>
   </head>
   <body>
 
-  <div class='home-page'>
+  <div class='home-page' data-0="opacity:1;transform:rotate(0deg);width:100%;" data-500="opacity:0;transform:rotate(360deg);width:0%;">
     <div class="navbar-fixed">
       <nav class='nav-bar'>
         <div class="nav-wrapper">
@@ -28,37 +27,34 @@
     </div>
 
     <h1 class='white-font'>Full stack web developer</h1>
-
-    <!-- <h5 class='white-font'>Full stack web developer</h5> -->
     <h4 class='white-font'>~ Bringing ideas to life through code ~</h4>
     <br/>
-    <!-- <a href="#!" class="btn waves-effect waves-orange">Find out more!</a> -->
+    <br><br><br>
+    <i class="material-icons dp48 scroll-icon animated infinite bounce">keyboard_arrow_down</i>
   </div>
 
     <div class='main'>
-      <h4 id='portfolio' class='teal-font'>
-        <!-- <span class='color-change'>My Creations</span> -->
-      </h4>
+      <h4 id='portfolio' class='teal-font'>My Creations</h4>
       <div class='port-flex-container'>
         <div class='project-wrapper'>
           <a class='port-link' class='hover' href='https://brunch-of-places-frontend.herokuapp.com' target="blank">
             <img class="responsive-img" src="./images/brunch-of-places.jpg">
           </a>
-            <p class='text'>NYC-based brunch location app created using React.js, Node.js, MongoDB, HTML, and CSS</p>
+            <p class='text'>NYC-based brunch location app created using React.js, Node.js, MongoDB, HTML, and CSS (Group Project)</p>
         </div>
         <div class='project-wrapper'>
           <a class='port-link' href='https://climb-on-frontend.herokuapp.com' target="blank">
             <img class="responsive-img" src="./images/climb-on.jpg">
           </a>
-          <p class='text'>Instructional climbing app for beginners constructed using React.js, Ruby on Rails, PostgreSQL, HTML, and CSS</p>
+          <p class='text'>Instructional climbing app for beginners constructed using React.js, Ruby on Rails, PostgreSQL, HTML, and CSS (Individual Project)</p>
         </div>
       </div>
+      <br><br><br><br>
+      <i class="material-icons dp48 teal-color animated infinite bounce">keyboard_arrow_down</i>
     </div>
 
     <div class='main'>
-      <h4 id='skills' class='teal-font padding-skills'>
-        <!-- <span class='color-change'>My Skills</span> -->
-      </h4>
+      <h4 id='skills' class='teal-font padding-skills'>My Skills</h4>
       <div class='skills-flex-container'>
         <div class='top'>
             <h6 class='skills-header cursor-stay'>Frontend</h6>
@@ -66,11 +62,6 @@
           <a href="#!" class="btn waves-effect waves-red z-depth-3">CSS3</a>
           <a href="#!" class="btn waves-effect waves-yellow z-depth-3">JavaScript</a>
           <a href="#!" class="btn waves-effect waves-orange z-depth-3">ReactJS</a>
-          <!-- <img class='skills-logo' src="./images/html5.png"> -->
-          <!-- <img class='skills-logo-css' src="./images/css3.png">
-          <img class='skills-logo-js' src="./images/js.png"> -->
-          <!-- <img class='skills-logo' src="./images/nodejs.png"> -->
-          <!-- <img class='skills-logo-react' src="./images/reactjs.png"> -->
           <br><br><br>
           <h6 class='skills-header cursor-stay'>Backend</h6>
           <a href="#!" class="btn waves-effect waves-teal z-depth-3">NodeJS</a>
@@ -78,15 +69,7 @@
           <a href="#!" class="btn waves-effect waves-teal z-depth-3">Rails</a>
           <a href="#!" class="btn waves-effect waves-teal z-depth-3">MongoDB</a>
           <a href="#!" class="btn waves-effect waves-teal z-depth-3">PostgreSQL</a>
-
         </div>
-        <!-- <div class="bottom">
-          <img class='skills-logo' src="./images/rails.png">
-          <img class='skills-logo-db' src="./images/mongodb.png">
-          <img class='skills-logo-db' src="./images/postgresql.png">
-          <img class='skills-logo-cat' src="./images/github.png">
-          <img class='skills-logo-heroku' src="./images/heroku.png">
-        </div> -->
       </div>
     </div>
 
@@ -96,11 +79,11 @@
         <img class='my-pic' src='./images/my-pic.jpg'>
         <br><br>
         <p>HI! My name is Tanya and it's a pleasure to meet you!</p>
-        <p>I am a full stack web developer living in Brooklyn, New York.
-          My creative background is in crafting handmade jewelry.
-          The drive to create is what attracted me to web design.
-          I really enjoy seeing my work come to life and having the creative freedom
-          to express myself through code.
+        <p>I am a software engineer living in Brooklyn, New York.
+          My creative background is in crafting handmade jewelry and professional background is in accounting/ finance.
+          The drive to create drove me to become an engineer.
+          I thrive on learning new things and building web applications that engage the user and are backed by clean code.
+          Want to connect?
         </p>
       </div>
     </div>
@@ -109,7 +92,7 @@
       <div id='contact' class='contact-flex-container'>
         <!-- <img class='my-pic' src='./images/my-pic.jpg'> -->
         <h5 class='teal-font'>
-          <span class='color-change'>Want to connect? I'd love to hear from you!</span>
+          <span class='color-change'>I'd love to hear from you!</span>
         </h5>
         <br/>
 
@@ -132,5 +115,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
     <script src="main.js"></script>
+    <script src="skrollr.min.js"></script>
+    <script>
+      var s = skrollr.init();
+    </script>
   </body>
 </html>
