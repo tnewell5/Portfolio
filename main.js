@@ -1,4 +1,4 @@
-// console.log('page has loaded!');
+console.log('page has loaded!');
 //
 // // window.mobilecheck = function() {
 // //   var check = false;
@@ -13,5 +13,5 @@
 //
 // var s = skrollr.init();
 // if (s.isMobile()) {
-//     s.destroy();
+//   s.destroy();
 // }

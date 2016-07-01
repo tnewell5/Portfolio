@@ -123,8 +123,12 @@
 
     <script src="main.js"></script>
     <script src="skrollr.min.js"></script>
+
     <script>
       var s = skrollr.init();
+      if (s.isMobile()) {
+          s.destroy();
+      }
     </script>
   </body>
 </html>
