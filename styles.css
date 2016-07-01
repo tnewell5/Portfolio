@@ -358,3 +358,42 @@ h5 {
     padding-top: 5%;
   }
 }
+
+@media screen and (max-width: 435px) {
+  .home-page {
+    height: 773px !important;
+  }
+  h4#about {
+    padding-top: 230px !important;
+  }
+  h4#portfolio {
+    padding-top: 90px !important;
+  }
+  h4#skills {
+    padding-top: 230px !important;
+  }
+  #contact {
+    margin-top: 415px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home-page {
+    height: 650px !important;
+  }
+  h4#skills {
+    padding-top: 180px !important;
+  }
+  h4#about {
+    padding-top: 160px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-page {
+    height: 580px !important;
+  }
+  nav ul a.nav-options {
+    padding: 0 !important;
+  }
+}

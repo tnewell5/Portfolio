@@ -11,7 +11,3 @@ console.log('page has loaded!');
 // //   skrollr.init().destroy();
 // // }
 //
-// var s = skrollr.init();
-// if (s.isMobile()) {
-//   s.destroy();
-// }
