@@ -210,6 +210,16 @@ h5 {
   color: teal;
 }
 
+@media screen and (max-width: 1000px) {
+  .brand-logo {
+    font-size: 25px !important;
+    left: 15% !important;
+  }
+  ul.hide-on-med-and-down {
+    display: block !important;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .main {
     margin-bottom: 45% !important;
@@ -276,7 +286,6 @@ h5 {
   span.color-change {
     font-size: 25px !important;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -292,7 +301,7 @@ h5 {
     display: block !important;
   }
   a {
-    font-size: 10px !important;
+    font-size: 12px !important;
     padding-right: 10% !important;
   }
   h4 {
@@ -339,10 +348,13 @@ h5 {
     padding-bottom: 10% !important;
   }
   .home-page {
-    height: 500px !important;
+    height: 650px !important;
   }
   img.my-pic {
     height: 100px;
     width: 100px;
+  }
+  i {
+    padding-top: 5%;
   }
 }
