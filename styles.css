@@ -145,7 +145,6 @@ h5 {
   height: 700px;
   background-image: url("./images/watercolor-background.jpg");
   background-size: cover;
-  /*opacity: 0.5;*/
   margin: 0;
   padding: 0;
 }
@@ -168,10 +167,6 @@ h5 {
 .teal-font {
   color: teal;
 }
-
-/*.padding-skills {
-  padding-bottom: 50px;
-}*/
 
 .color-change:hover {
   color: #8053c2;
@@ -215,8 +210,76 @@ h5 {
   color: teal;
 }
 
+@media screen and (max-width: 700px) {
+  .main {
+    margin-bottom: 45% !important;
+  }
+  .home-page {
+    height: 650px !important;
+    padding-bottom: 200px !important;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  h4 {
+    font-size: 25px !important;
+  }
+  .brand-logo {
+    font-size: 25px !important;
+    left: 15% !important;
+  }
+  ul.hide-on-med-and-down {
+    display: block !important;
+  }
+  .port-flex-container {
+    flex-direction: column !important;
+  }
+  .project-wrapper {
+    width: 70% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    height: 95% !important;
+  }
+  .skills-flex-container {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+  i.material-icons {
+    font-size: 70px !important;
+  }
+  i.projects {
+    padding-top: 22% !important;
+    font-size: 40px !important;
+  }
+  h4#portfolio {
+    padding-top: 25px;
+  }
+  h4#skills {
+    padding-top: 150px !important;
+  }
+  a.btn {
+    margin-top: 5px !important;
+  }
+  h4#about {
+    padding-top: 50px !important;
+  }
+  #contact {
+    margin-top: 550px !important;
+  }
+  i.skills {
+    padding-top: 5% !important;
+    font-size: 40px !important;
+  }
+  i.about {
+    font-size: 40px !important;
+  }
+  span.color-change {
+    font-size: 25px !important;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
-/*@media (max-width: 600px) {*/
   h1 {
     font-size: 23px !important;
   }
@@ -230,7 +293,6 @@ h5 {
   }
   a {
     font-size: 10px !important;
-    /*padding-left: 10% !important;*/
     padding-right: 10% !important;
   }
   h4 {
@@ -270,9 +332,17 @@ h5 {
   .contact-icons {
     margin-left: 10% !important;
   }
-  /*.divWithSkrollr{
-    transform: none !important;
-    opacity: 1 !important;
-    width: 100% !important;
-  }*/
+}
+
+@media screen and (max-width: 500px) {
+  .project-wrapper {
+    padding-bottom: 10% !important;
+  }
+  .home-page {
+    height: 500px !important;
+  }
+  img.my-pic {
+    height: 100px;
+    width: 100px;
+  }
 }
