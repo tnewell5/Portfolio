@@ -215,7 +215,7 @@ h5 {
   color: teal;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 23px !important;
   }
