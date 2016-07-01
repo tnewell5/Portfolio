@@ -195,7 +195,6 @@ h5 {
 }
 
 .about-me {
-  /*padding-top: 10%;*/
   font-size: 18px;
   color: teal;
   padding-left: 15%;
@@ -214,4 +213,60 @@ h5 {
 .teal-color {
   font-size: 70px !important;
   color: teal;
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 23px !important;
+  }
+  .brand-logo {
+    font-size: 16px !important;
+    left: 15% !important;
+    padding-left: 15% !important;
+  }
+  ul.hide-on-med-and-down {
+    display: block !important;
+  }
+  a {
+    font-size: 10px !important;
+    /*padding-left: 10% !important;*/
+    padding-right: 10% !important;
+  }
+  h4 {
+    font-size: 15px !important;
+  }
+  img.my-pic {
+    height: 150px;
+    width: 150px;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  i.material-icons {
+    font-size: 30px !important;
+  }
+  .port-flex-container {
+    flex-direction: column !important;
+  }
+  .project-wrapper {
+    width: 85% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+  .skills-flex-container {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+  h4#about {
+    padding-top: 150px !important;
+  }
+  #contact {
+    margin-top: 65% !important;
+  }
+  span.color-change {
+    font-size: 14px !important;
+  }
+  .contact-icons {
+    margin-left: 10% !important;
+  }
 }
